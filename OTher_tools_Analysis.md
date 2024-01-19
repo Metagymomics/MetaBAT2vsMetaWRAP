@@ -5,7 +5,7 @@ This script includes a mix of tools used for various analyses in the study. It i
 
 ## Analysis Steps and Script
 
-### Antimicrobal resistnance genes identification using Abricate 1.0.1
+### Antimicrobal resistance genes identification using Abricate 1.0.1
 ```bash
 abricate mags_directory --csv --db card --threads 15  >> amr_output.csv
 ```
