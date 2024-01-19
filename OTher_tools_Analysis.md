@@ -14,13 +14,7 @@ abricate mags_directory --csv --db card --threads 15  >> amr_output.csv
 ```bash
 for x in $(ls MAGs*);
 do
-```
-
-```bash
 barrnap --threads 5 each_mag.fa > "$x".gff
-```
-
-```bash
 done
 ```
 
